@@ -21,7 +21,7 @@ $("#btnMakeId").click(function (event) {
 	
 	if(li.length < 10) {	
 		var url = "/list/" + id;		
-		var html = '<a href="' + url + '">http://fuelbin.xexacttargetapps.com/' + id + '</a>'				
+		var html = '<a href="' + url + '">http://localhost:3000/' + id + '</a>'				
 		bins_list.push(html);
 	} else {
 		$('#btnMakeId').attr('disabled', 'disabled');
