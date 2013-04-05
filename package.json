@@ -1,0 +1,14 @@
+{
+  "name": "RequestBin",
+  "version": "0.0.1",
+  "description": "RequestBin",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~3.0.1",   
+	"hbs": "*"	
+  },
+  "devDependencies": {},
+  "repository": "",
+  "author": "Eric Jones",
+  "license": "BSD"
+}

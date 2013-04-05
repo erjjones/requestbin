@@ -1,0 +1,27 @@
+
+<div class="container">  
+	<h3>Request Bin {{id}}</h3>
+    <p>List of the last 50 posts from <a href="{{{url}}}/{{id}}">{{{url}}}/{{id}}</a></p>		
+	<table class="table table-bordered table-striped">	  
+	  <colgroup>
+		<col class="span2">
+		<col class="span7">
+	  </colgroup>
+	  <thead>
+		<tr>
+		  <th>Post Date</th>
+		  <th>Payload</th>
+		</tr>
+	  </thead>
+	  <tbody>
+		{{#posts}}
+		<tr>		  
+		  <td class="span2">{{timestamp}}</td>
+		  <td class="span7">{{payload}}</td>
+		</tr>
+		{{/posts}}
+	  </tbody>
+	</table>		
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+<script src="/js/list.js"></script>

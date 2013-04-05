@@ -1,0 +1,35 @@
+<div class="container">    
+	<div class="jumbotron masthead">
+	  <div class="container">
+		<h1>RequestBin</h1>
+		<p>An endpoint to post and retrieve your data</p>		
+		<p>			 
+		  <input type="button" id="btnMakeId" name="btnMakeId" value="Create a bin" class="btn btn-primary  btn-large" />			  
+		  <input type="button" id="btnReset" name="btnReset" value="Reset bins" class="btn  btn-large" />			  
+		</p>	
+	  </div>
+	</div>	
+
+	<div class="row">
+		<div class="span4">
+			<h3><a href="#">About</a></h3>
+			<p>On a recent project I needed to stand up an endpoint(s) that others could create to post and retrieve data.  We didn't to use something out on the web so I created this little app.  Learn more at <a href="https://github.com/erjjones/requestbin">https://github.com/erjjones/requestbin</a></p>
+		</div>
+		<div class="span4">
+			<h3><a href="#">Instructions</a></h3>
+			<p><ul>
+				<li>Click Create a bin to generate a bin</li>
+				<li>Create up to 10 bins at a time</li>		
+				<li>Click Reset bins to remove current bins</li>
+				<li>POST a JSON payload to the bin endpoint</li>
+				<li>GET the last 50 posts from a bin endpoint</li>				
+			</ul></p>				
+		</div>
+		<div class="span4">
+			<h3><a href="#">Created Bins</a></h3>
+			<p><ol id='output'></ol></p>		
+		</div>
+	</div>			
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+<script src="/js/index.js"></script>
