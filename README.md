@@ -3,6 +3,10 @@
 ## Getting Started
 
 * `git clone git://github.com/erjjones/requestbin.git`
+* Install mongodb 1.8 or newer
+* Install nodejs
+* Create a `data` folder locally (i.e. d:/requestbin/data)
+* Navigate to mongo/bin folder `mongod.exe --dbpath: d:/requestbin/data`
 * Run `node app` in the root directory 
 * Navigate to [http://localhost:3000/] (http://localhost:3000/)
 
